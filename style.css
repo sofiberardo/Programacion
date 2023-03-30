@@ -6,11 +6,33 @@ h1 {
 body {
     background-color: rgba(150, 150, 240, 0.735);
 }
-p {
+#para1 {
     text-align: center;
     font-family: Helvetica, serif;
     color:rgb(85, 85, 205);
     border: 2px solid rgb(85, 85, 205);
     padding: 10px;
     background-color: lightblue;
+}
+.lugares {
+    padding: 100px 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+#para2 {
+    background-color:rgba(255, 166, 0, 0.562);
+}
+
+#para3 {
+    background-color: rgba(133, 234, 234, 0.728);
+}
+
+#para4 {
+    background-color:rgba(174, 126, 218, 0.692) ;
+}
+
+#paratítulos {
+    color: blueviolet;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
