@@ -1,7 +1,7 @@
 p {
     color:blue;
     font: 20px bolder;
-    border: 2px solid blue;
+    border: 2px solid rgb(85, 85, 205);
     padding: 10px;
     background-color: lightblue;
 }
