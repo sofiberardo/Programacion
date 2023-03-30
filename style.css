@@ -1,6 +1,6 @@
-p {color:blue;
+p {
+    color:blue;
     font: 20px bolder;
     border: 2px solid blue;
     padding: 10px;
-
 }
