@@ -37,5 +37,6 @@ body {
 
 #paratitulos {
     color: blueviolet;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Space Grotesk', sans-serif;
+    margin-left: 15px;
 }
