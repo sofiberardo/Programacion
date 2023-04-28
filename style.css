@@ -85,14 +85,14 @@ td{
     position: relative;
 }
 .imgTabla{
-    width: 90%;
-    height: 90%;
+    width: 100%;
+    height: 100%;
 }
-.textoFoto1{
+.textoFoto{
     position: absolute;
-    top: 42%;
-    bottom: 40%;
-    left: 21%;
+    top: 35%;
+    left: 25%;
+    right: 25%;
     text-align: center;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #FFFFFF;
@@ -101,36 +101,21 @@ td{
     padding-right: 5%;
     background-color: #6D3826;
 }
-.textoFoto2{
-    position: absolute;
-    top: 42%;
-    bottom: 40%;
-    left: 21%;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #FFFFFF;
-    padding: 3%;
-    padding-left: 5%;
-    padding-right: 5%;
-    background-color: #788143;
-}
-.textoFoto3{
-    position: absolute;
-    top: 42%;
-    bottom: 40%;
-    left: 14%;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #FFFFFF;
-    padding: 3%;
-    padding-left: 5%;
-    padding-right: 5%;
-    background-color: #B89663;
-}
 .flecha1{
     margin-right: 5px;
 }
 .flecha2{
     margin-top: 20px;
     margin-bottom: 20px;
+}
+.fotos{
+    display:flex;
+    justify-content: center;
+}
+.foto{
+    width: 350px;
+    height: 400px;
+    position: relative;
 }
 @media only screen and (max-width: 600px){
 
