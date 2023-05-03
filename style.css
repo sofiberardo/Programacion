@@ -11,7 +11,7 @@ body{
     margin-bottom: 20px;
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: center;
 }
 #paraTitulo{
     color: whitesmoke;
@@ -28,40 +28,28 @@ body{
     margin-right: 20px;
     margin-bottom: 0px;
 }
-
-#paraMenuSup{
-    background-color:#FFFFFF;
-    height: 40px;
+.menu{
+    display: flex;
     position: sticky;
+    height: 40px;
     top: 0;
     margin-bottom: 20px;
-}
-#paraMenu1{
-    color: #0d1216;
+    background-color:#FFFFFF;
     font-family: 'Inter Tight', sans-serif;
-    width: 25vw;
-    float: left;
-    text-align: left;
-    margin-top: 8.5px;
+    color: #0d1216;
+    align-items: center;
+    justify-content: space-between;
+}
+.volver{
     margin-left: 5px;
+    margin-right: 15px;
 }
-#paraMenu2{
-    color: #0d1216;
-    font-family: 'Inter Tight', sans-serif;
-    width: 25vw;
-    float: left;
-    text-align: right;
-    margin-top: 8.5px;
+.inicio{
+    margin-right: 15px;
 }
-#paraMenu3{
-    color: #0d1216;
-    font-family: 'Inter Tight', sans-serif;
-    width: 47.2vw;
-    float: right;
-    text-align: left;
-    margin-top: 8.5px;
+.espacio{
+    margin-right: 15px;
 }
-
 .imgTabla{
     width: 100%;
     height: 100%;
@@ -79,23 +67,124 @@ body{
     padding-right: 5%;
     background-color: #6D3826;
 }
-.flecha1{
+.flecha{
     margin-right: 5px;
 }
-.flecha2{
-    margin-top: 20px;
-    margin-bottom: 20px;
+.lupa{
+    margin-left: 5px;
+    margin-right: 0px;
 }
+
 .fotos{
     display: flex;
     justify-content: center;
-    margin-top: 15px;
+    margin-top: 10px;
 }
 .foto{
     width: 350px;
     height: 400px;
     position: relative;
+    margin: 5px;
 }
-@media only screen and (max-width: 600px){
-
+@media screen and (max-width: 500px){
+    body{
+        background-color: #0d1216;
+        border: 0px;
+        padding: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 0px;
+    }
+    .container {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+    #paraTitulo{
+        color: whitesmoke;
+        font-family: 'Climate Crisis', cursive;
+        font-size: 18px;
+        margin-left: 20px;
+        align-self: center;
+    }
+    #para1{
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 10px;
+        color:whitesmoke;
+        align-self: center;
+        margin-right: 20px;
+        margin-bottom: 0px;
+    }
+    
+    #paraMenuSup{
+        background-color:#FFFFFF;
+        height: 40px;
+        position: sticky;
+        top: 0;
+        margin-bottom: 20px;
+    }
+    #paraMenu1{
+        color: #0d1216;
+        font-family: 'Inter Tight', sans-serif;
+        width: 25vw;
+        float: left;
+        text-align: left;
+        margin-top: 8.5px;
+        margin-left: 5px;
+    }
+    #paraMenu2{
+        color: #0d1216;
+        font-family: 'Inter Tight', sans-serif;
+        width: 25vw;
+        float: left;
+        text-align: right;
+        margin-top: 8.5px;
+    }
+    #paraMenu3{
+        color: #0d1216;
+        font-family: 'Inter Tight', sans-serif;
+        width: 47.2vw;
+        float: right;
+        text-align: left;
+        margin-top: 8.5px;
+    }
+    
+    .imgTabla{
+        width: 100%;
+        height: 100%;
+    }
+    .textoFoto{
+        position: absolute;
+        top: 43%;
+        left: 15%;
+        right: 15%;
+        text-align: center;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: #FFFFFF;
+        padding: 3%;
+        padding-left: 5%;
+        padding-right: 5%;
+        background-color: #6D3826;
+    }
+    .flecha1{
+        margin-right: 5px;
+    }
+    .flecha2{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .fotos{
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+        flex-wrap: wrap;
+    }
+    .foto{
+        width: 220px;
+        height: 250px;
+        position: relative;
+        margin: 15px;
+    }
 }
