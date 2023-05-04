@@ -88,6 +88,7 @@ body{
     position: relative;
     margin: 5px;
 }
+
 @media screen and (max-width: 420px){
     body{
         background-color: #0d1216;
