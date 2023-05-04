@@ -132,7 +132,7 @@ body{
         font-family: 'Inter Tight', sans-serif;
         color: #0d1216;
         align-items: center;
-        justify-content: space-between;
+        justify-content: flex-end;
     }
     .inicio{
         margin-right: 15px;
@@ -163,8 +163,6 @@ body{
         padding: 3%;
         background-color: #6D3826;
     }
-    .flecha1{
-        margin-right: 5px;
     }
     .lupa{
         margin-left: 5px;
