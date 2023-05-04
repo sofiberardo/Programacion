@@ -1,3 +1,39 @@
 body{
     background-color: #0d1216;
+    border: 0px;
+    padding: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+.menu{
+    display: flex;
+    position: sticky;
+    height: 40px;
+    top: 0;
+    margin-bottom: 20px;
+    background-color:#FFFFFF;
+    font-family: 'Inter Tight', sans-serif;
+    color: #0d1216;
+    align-items: center;
+    justify-content: space-between;
+}
+.volver{
+    margin-left: 5px;
+    margin-right: 15px;
+}
+.inicio{
+    margin-right: 15px;
+}
+#link:first-child{
+    color:#0d1216;
+}
+.subrayado {
+    text-decoration: none;
+}
+.espacio{
+    margin-right: 15px;
+}
+.flecha1{
+    margin-right: 5px;
 }

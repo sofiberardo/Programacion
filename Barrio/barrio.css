@@ -25,9 +25,59 @@ body{
 .inicio{
     margin-right: 15px;
 }
+#link:first-child{
+    color:#0d1216;
+}
+.subrayado {
+    text-decoration: none;
+}
 .espacio{
     margin-right: 15px;
 }
 .flecha1{
     margin-right: 5px;
+}
+
+/*Solo de esta página*/
+.titulo{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-family: 'Climate Crisis', cursive;
+    color: whitesmoke;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.fotos{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    padding: 30px;
+}
+.tamaño{
+    width: 220px;
+    height: 300px;
+}
+.foto{
+    width: 350px;
+    height: 400px;
+    position: relative;
+    margin: 5px;
+}
+.texto-fotos{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    padding: 30px;
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    right: 15%;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #FFFFFF;
+    padding: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
 }

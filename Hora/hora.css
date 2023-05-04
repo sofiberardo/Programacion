@@ -25,6 +25,12 @@ body{
 .inicio{
     margin-right: 15px;
 }
+#link:first-child{
+    color:#0d1216;
+}
+.subrayado {
+    text-decoration: none;
+}
 .espacio{
     margin-right: 15px;
 }
