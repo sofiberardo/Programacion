@@ -18,10 +18,6 @@ body{
     align-items: center;
     justify-content: space-between;
 }
-.volver{
-    margin-left: 5px;
-    margin-right: 15px;
-}
 .inicio{
     margin-right: 15px;
 }
@@ -34,9 +30,6 @@ body{
 }
 .espacio{
     margin-right: 15px;
-}
-.flecha1{
-    margin-right: 5px;
 }
 .lupa{
     margin-left: 5px;
