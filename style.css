@@ -12,6 +12,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 #paraTitulo{
     color: whitesmoke;
@@ -67,7 +68,7 @@ body{
     padding-right: 5%;
     background-color: #6D3826;
 }
-.flecha{
+.flecha1{
     margin-right: 5px;
 }
 .lupa{
