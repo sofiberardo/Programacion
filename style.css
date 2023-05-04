@@ -6,7 +6,42 @@ body{
     margin-right: 0px;
     margin-top: 0px;
 }
-.container {
+.menu{
+    display: flex;
+    position: sticky;
+    height: 40px;
+    top: 0;
+    margin-bottom: 20px;
+    background-color:#FFFFFF;
+    font-family: 'Inter Tight', sans-serif;
+    color: #0d1216;
+    align-items: center;
+    justify-content: space-between;
+}
+.volver{
+    margin-left: 5px;
+    margin-right: 15px;
+}
+.inicio{
+    margin-right: 15px;
+}
+#link:first-child{
+    color:#0d1216;
+}
+.subrayado{
+    text-decoration: none;
+}
+.espacio{
+    margin-right: 15px;
+}
+.flecha1{
+    margin-right: 5px;
+}
+.lupa{
+    margin-left: 5px;
+    margin-right: 0px;
+}
+.container{
     margin-top: 20px;
     margin-bottom: 20px;
     display: flex;
@@ -31,34 +66,6 @@ body{
     margin-left: 40px;
     margin-bottom: 0px;
 }
-.menu{
-    display: flex;
-    position: sticky;
-    height: 40px;
-    top: 0;
-    margin-bottom: 20px;
-    background-color:#FFFFFF;
-    font-family: 'Inter Tight', sans-serif;
-    color: #0d1216;
-    align-items: center;
-    justify-content: space-between;
-}
-.volver{
-    margin-left: 5px;
-    margin-right: 15px;
-}
-.inicio{
-    margin-right: 15px;
-}
-#link:first-child{
-    color:#0d1216;
-}
-.subrayado {
-    text-decoration: none;
-}
-.espacio{
-    margin-right: 15px;
-}
 .img{
     width: 100%;
     height: 100%;
@@ -75,13 +82,6 @@ body{
     padding-left: 5%;
     padding-right: 5%;
     background-color: #6D3826;
-}
-.flecha1{
-    margin-right: 5px;
-}
-.lupa{
-    margin-left: 5px;
-    margin-right: 0px;
 }
 .fotos{
     display: flex;
@@ -103,7 +103,7 @@ body{
         margin-right: 0px;
         margin-top: 0px;
     }
-    .container {
+    .container{
         margin-top: 5px;
         margin-bottom: 5px;
         display: flex;
@@ -147,7 +147,7 @@ body{
     #link:first-child{
         color:#0d1216;
     }
-    .subrayado {
+    .subrayado{
         text-decoration: none;
     }
     .espacio{
