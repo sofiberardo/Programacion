@@ -1,23 +1,73 @@
 body{
     background-color: #0d1216;
-    border: 0px;
+    margin: 0px;
     padding: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-top: 0px;
+    border: 0px;
 }
-.menu{
+.container {  display: grid;
+    margin: 0px;
+    padding: 0px;
+    grid-template-rows: 0.2fr 0.5fr 2fr; 
+    gap: 0px 0px; 
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Menú"
+      "Título"
+      "Contenido";
+    width: 100%; 
+    height: 100%; 
+  }
+  
+  .Menú { 
     display: flex;
-    position: sticky;
+    align-content: space-between;
+    margin: 0px;
+    padding: 0px;
     height: 40px;
-    top: 0;
-    margin-bottom: 20px;
+    grid-area: Menú;
+    position: sticky;
     background-color:#FFFFFF;
     font-family: 'Inter Tight', sans-serif;
     color: #0d1216;
-    align-items:center;
-    justify-content:flex-end;
+    }
+  
+  .Contenido {  display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Desayuno Almuerzo"
+      "Tarde Noche";
+    grid-area: Contenido;
+  }
+  
+  .Desayuno { grid-area: Desayuno; }
+  
+  .Almuerzo { grid-area: Almuerzo; }
+  
+  .Tarde { grid-area: Tarde; }
+  
+  .Noche { grid-area: Noche; }
+  
+  .Título { grid-area: Título; }
+
+/* Clases del menú */
+  .inicio{
+    margin-right: 15px;
 }
+#link:first-child{
+    color:#0d1216;
+    font-size: 12px;
+}
+.subrayado{
+    text-decoration: none;
+}
+.espacio{
+    margin-right: 15px;
+}
+
+/*
 .inicio{
     margin-right: 15px;
 }
