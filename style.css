@@ -20,9 +20,9 @@ body{
   
   .Menú { 
     display: flex;
-    align-content: space-between;
-    margin: 0px;
-    padding: 0px;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
     height: 40px;
     grid-area: Menú;
     position: sticky;
@@ -53,34 +53,19 @@ body{
   .Título { grid-area: Título; }
 
 /* Clases del menú */
-  .inicio{
-    margin-right: 15px;
+.estilo1{
+    margin-left: 10px;
+    text-decoration: none;
+}
+.estilo2{
+    margin-right: 10px;
+    text-decoration: none;
 }
 #link:first-child{
     color:#0d1216;
-    font-size: 12px;
-}
-.subrayado{
-    text-decoration: none;
-}
-.espacio{
-    margin-right: 15px;
 }
 
 /*
-.inicio{
-    margin-right: 15px;
-}
-#link:first-child{
-    color:#0d1216;
-    font-size: 16px;
-}
-.subrayado{
-    text-decoration: none;
-}
-.espacio{
-    margin-right: 15px;
-}
 .lupa{
     margin-left: 5px;
     margin-right: 0px;
@@ -141,96 +126,4 @@ body{
     height: 400px;
     position: relative;
     margin: 5px;
-}
-
-@media screen and (max-width: 420px){
-    body{
-        background-color: #0d1216;
-        border: 0px;
-        padding: 0px;
-        margin-left: 0px;
-        margin-right: 0px;
-        margin-top: 0px;
-    }
-    .container{
-        margin-top: 5px;
-        margin-bottom: 5px;
-        display: flex;
-        justify-content: space-evenly;
-        align-content: center;
-        align-items: center;
-    }
-    .container > #paraTitulo{
-        color: whitesmoke;
-        font-family: 'Climate Crisis', cursive;
-        font-size: 28px;
-        margin-right: 15px;
-        margin-left: 15px;
-        text-align: center;
-    }
-    .container > #para1{
-        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-size: 14px;
-        color:whitesmoke;
-        text-align: right;
-        margin-right: 15px;
-        margin-left: 8px;
-        margin-bottom: 0px;
-    }
-    .menu{
-        position: sticky;
-        display: flex;
-        height: 25px;
-        top: 0;
-        margin-bottom: 10px;
-        background-color:#FFFFFF;
-        font-family: 'Inter Tight', sans-serif;
-        color: #0d1216;
-        align-items: center;
-        justify-content: flex-end;
-    }
-    .inicio{
-        margin-right: 15px;
-    }
-    #link:first-child{
-        color:#0d1216;
-        font-size: 12px;
-    }
-    .subrayado{
-        text-decoration: none;
-    }
-    .espacio{
-        margin-right: 15px;
-    }
-    .img{
-        width: 100%;
-        height: 100%;
-    }
-    .textoFoto{
-        position: absolute;
-        top: 35%;
-        left: 15%;
-        right: 15%;
-        text-align: center;
-        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        color: #FFFFFF;
-        font-size: 14px;
-        padding: 3%;
-        background-color: #6D3826;
-    }
-    .lupa{
-        margin-left: 5px;
-        margin-right: 0px;
-    }
-    .fotos{
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        margin-top: 10px;
-    }
-    .foto{
-        width: 200px;
-        height: 250px;
-        margin: 5px;
-    }
 }
