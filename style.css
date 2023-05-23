@@ -31,8 +31,8 @@ body{
     font-size: 17px;
 }
   .Título { 
-    margin-left: 225px;
-    margin-right: 225px;
+    margin-left: 220px;
+    margin-right: 220px;
     grid-area: Título;
     display: flex;
     flex-wrap: wrap;
@@ -110,9 +110,11 @@ body{
 #título{
     padding: 0px;
     margin: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
     color:#6ec3f1;
     font-family: 'DM Serif Display', serif;
-    font-size: 78px;
+    font-size: 80px;
     text-align: center;
 }
 #texto-título{
