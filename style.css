@@ -42,25 +42,59 @@ body{
     height: 200px;
  }
   .Contenido {  display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    gap: 0px 0px;
+    gap: 20px 20px;
     grid-auto-flow: row;
     grid-template-areas:
-      "Desayuno Almuerzo"
-      "Tarde Noche";
+      "Cafe Hamburguesas BBB"
+      "Especial Bares Mapa"
+      ;
     grid-area: Contenido;
+    margin: 40px;
   }
+  .Cafe { 
+    grid-area: Cafe; 
+    display: flex;
+    width: 100%;
+    height: 30vw;
+    background-image: url(./imagenes/Comida.JPG);
+    background-size: cover;
+    }
+  .Hamburguesas { grid-area: Hamburguesas; 
+    display: flex;
+    width: 100%;
+    height: 30vw;
+    background-image: url(./imagenes/Hora.JPG);
+    background-size: cover;}
+
+  .BBB{grid-area: BBB;
+    display: flex;
+    width: 100%;
+    height: 30vw;
+    background-image: url(./imagenes/Barrio.JPG);
+    background-size: cover;}
   
-  .Desayuno { grid-area: Desayuno; }
+  .Especial { grid-area: Especial; 
+    display: flex;
+    width: 100%;
+    height: 30vw;
+    background-image: url(./imagenes/Comida.JPG);
+    background-size: cover;}
+
+  .Bares{ grid-area: Bares; 
+    display: flex;
+    width: 100%;
+    height: 30vw;
+    background-image: url(./imagenes/Comida.JPG);
+    background-size: cover;}
   
-  .Almuerzo { grid-area: Almuerzo; }
-  
-  .Tarde { grid-area: Tarde; }
-  
-  .Noche { grid-area: Noche; }
-  
-  
+  .Mapa { grid-area: Mapa;
+    display: flex;
+    width: 100%;
+    height: 30vw;
+    background-image: url(./imagenes/Comida.JPG);
+    background-size: cover; }
 
 /* Clases del menú */
 .estilo{
@@ -76,7 +110,7 @@ body{
     margin: 0px;
     color:#6ec3f1;
     font-family: 'DM Serif Display', serif;
-    font-size: 75px;
+    font-size: 78px;
     text-align: center;
 }
 #texto-título{
