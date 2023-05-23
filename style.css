@@ -47,53 +47,55 @@ body{
     gap: 20px 20px;
     grid-auto-flow: row;
     grid-template-areas:
-      "Cafe Hamburguesas BBB"
+      "Cafe Veggie BBB"
       "Especial Bares Mapa"
       ;
     grid-area: Contenido;
-    margin: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
   }
   .Cafe { 
     grid-area: Cafe; 
     display: flex;
     width: 100%;
     height: 30vw;
-    background-image: url(./imagenes/Comida.JPG);
+    background-image: url(./imagenes/Cafe.JPG);
     background-size: cover;
     }
-  .Hamburguesas { grid-area: Hamburguesas; 
+
+  .Veggie { grid-area: Veggie; 
     display: flex;
     width: 100%;
     height: 30vw;
-    background-image: url(./imagenes/Hora.JPG);
+    background-image: url(./imagenes/Veggie.JPG);
     background-size: cover;}
 
   .BBB{grid-area: BBB;
     display: flex;
     width: 100%;
     height: 30vw;
-    background-image: url(./imagenes/Barrio.JPG);
+    background-image: url(./imagenes/BBB.jpg);
     background-size: cover;}
   
   .Especial { grid-area: Especial; 
     display: flex;
     width: 100%;
     height: 30vw;
-    background-image: url(./imagenes/Comida.JPG);
+    background-image: url(./imagenes/Especial.JPG);
     background-size: cover;}
 
   .Bares{ grid-area: Bares; 
     display: flex;
     width: 100%;
     height: 30vw;
-    background-image: url(./imagenes/Comida.JPG);
+    background-image: url(./imagenes/Bares.jpg);
     background-size: cover;}
   
   .Mapa { grid-area: Mapa;
     display: flex;
     width: 100%;
     height: 30vw;
-    background-image: url(./imagenes/Comida.JPG);
+    background-image: url(./imagenes/Barrio.JPG);
     background-size: cover; }
 
 /* Clases del menú */
