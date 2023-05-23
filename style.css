@@ -31,8 +31,8 @@ body{
     font-size: 17px;
 }
   .Título { 
-    margin-left: 220px;
-    margin-right: 220px;
+    margin-left: 225px;
+    margin-right: 225px;
     grid-area: Título;
     display: flex;
     flex-wrap: wrap;
