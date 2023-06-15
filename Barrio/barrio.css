@@ -69,3 +69,16 @@ body{
     font-size: 18px;
   }
 
+/*Buscador*/
+.buscador{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+.textoB {
+  font-size: 20px;
+  font-family: 'DM Sans', sans-serif;
+  color: whitesmoke;
+  margin-right: 15px;
+}

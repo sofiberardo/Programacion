@@ -14,6 +14,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Comer en BA</title>
 </head>
+<script>
+    function sugerirLugarComida() {
+    var comida = document.getElementById("inputComida").value.toLowerCase();
+
+    if(comida === "hamburguesas" || comida === "Hamburguesas"){
+        document.getElementById("resultado").textContent = "Te recomiendo ir a Flour Store, es una hamburguesería muy buena que queda en la calle Humauaca 3853"
+    } else if (comida === "helado" || comida === "Helado"){
+        document.getElementById("resultado").textContent = "Podrías ir a Obrador Florida, es una heladería artesanal que queda en Palermo, en Soler 5063"   
+    } else if (comida === "milanesa" || comida === "Milanesa"){
+        document.getElementById("resultado").textContent = "Te recomiendo Cantina La Favorita, tiene altas milanesas. Queda en Honduras 5288"
+    } else {
+        document.getElementById("resultado").textContent = "Por el momento no tenemos sugerencias para esa comida, pero vamos a tener en cuenta tu pedido para seguir mejorando :)"
+    }
+}
+</script>
 <body>
     <div class="menu">
         <a href="/index.html" id="textoMenu"><b>Inicio</b></a>
@@ -40,6 +55,16 @@
         <div class="foto">
             <img id="img" src="imagenes/Nuñez-Belgrano.jpg" alt="Nuñez/Belgrano">
             <div class="arriba"><a id="formato" href="./Nuñez-Belgrano/nuñez-bel.html"><p style="background-color: #788143; padding: 10px;">NUÑEZ / BELGRANO</p></a></div>
+        </div>
+    </div>
+    <div class="buscador">
+        <div class="textoB"><b>¿ Qué querés comer hoy ?</b></div>
+        <div>
+            <input type="text" id="inputComida" placeholder="Ingresa una comida">
+            <button onclick="sugerirLugarComida()">Buscar</button>
+        </div>
+        <div>
+            <p id="resultado" class="text-light"></p>
         </div>
     </div>
 </body>
