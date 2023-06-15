@@ -35,6 +35,7 @@ body{
     align-items: center;
     padding: 10px;
     flex-wrap: wrap;
+    margin: 40px;
 }
 #titulo{
     font-family:'DM Sans', sans-serif;
