@@ -18,6 +18,3 @@ function sugerirLugarComida() {
     }
 }
 
-function borrarBúsqueda() {
-    
-}

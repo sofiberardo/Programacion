@@ -77,10 +77,18 @@ body{
   flex-wrap: wrap;
   flex-direction: column;
   margin: 35px;
-  gap: 20px;
+  gap: 10px;
 }
 #textoB {
   font-size: 30px;
   font-family: 'DM Sans', sans-serif;
   color: whitesmoke;
+}
+#textoC{
+  font-size: 20px;
+  font-family: 'DM Sans', sans-serif;
+  color: whitesmoke;
+}
+#Form{
+  margin: 15px;
 }
