@@ -43,8 +43,8 @@ body{
     display: flex;
     text-align: center;
     justify-content: space-evenly;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 45px;
+    margin-bottom: 45px;
   }
   #img{
     width: 100%;
@@ -73,12 +73,14 @@ body{
 .buscador{
   display: flex;
   justify-content: center;
-  padding: 20px;
+  align-items: center;
   flex-wrap: wrap;
+  flex-direction: column;
+  margin: 35px;
+  gap: 20px;
 }
-.textoB {
-  font-size: 20px;
+#textoB {
+  font-size: 30px;
   font-family: 'DM Sans', sans-serif;
   color: whitesmoke;
-  margin-right: 15px;
 }
