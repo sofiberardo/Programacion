@@ -91,7 +91,7 @@ body{
 }
 
 /*Responsive*/
-@media screen and (max-width: 600px){
+@media screen and (max-width: 790px){
   /*Título*/
   #paraTitulo{
     font-size: 45px;
