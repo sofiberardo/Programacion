@@ -92,6 +92,12 @@ body{
 
 /*Responsive*/
 @media screen and (max-width: 790px){
+  #textoMenu{
+      font-family: 'DM Sans', sans-serif;
+      color: #0d1216;
+      text-decoration: none;
+      font-size: 14px;
+    }
   /*Título*/
   #paraTitulo{
     font-size: 45px;

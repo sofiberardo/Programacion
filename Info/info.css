@@ -8,32 +8,30 @@ body{
 }
 .menu{
     display: flex;
+    align-items:center;
+    justify-content:flex-end;
     position: sticky;
+    z-index: 1;
+    top: 0px;
     height: 40px;
-    top: 0;
     margin-bottom: 20px;
+    padding-right: 15px;
+    gap: 15px;
     background-color:#FFFFFF;
-    font-family: 'Inter Tight', sans-serif;
+  }
+  #textoMenu{
+    font-family: 'DM Sans', sans-serif;
     color: #0d1216;
-    align-items: center;
-    justify-content: space-between;
-}
-.volver{
-    margin-left: 5px;
-    margin-right: 15px;
-}
-.inicio{
-    margin-right: 15px;
-}
-#link:first-child{
-    color:#0d1216;
-}
-.subrayado {
     text-decoration: none;
-}
-.espacio{
-    margin-right: 15px;
-}
-.flecha1{
-    margin-right: 5px;
-}
+    font-size: 17px;
+  }
+
+  /*Responsive*/
+@media screen and (max-width: 790px){
+    #textoMenu{
+        font-family: 'DM Sans', sans-serif;
+        color: #0d1216;
+        text-decoration: none;
+        font-size: 14px;
+      }
+    }
