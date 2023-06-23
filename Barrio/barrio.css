@@ -88,9 +88,6 @@ body{
   font-family: 'DM Sans', sans-serif;
   color: whitesmoke;
 }
-#Form{
-  margin: 15px;
-}
 
 /*Responsive*/
 @media screen and (max-width: 790px){

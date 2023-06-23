@@ -1,14 +1,3 @@
-function MostrarMensaje() {
-    var nombre = document.getElementById("nombre").value;
-    var correo = document.getElementById("correo").value;
-
-    if(nombre === "" || correo === ""){
-        alert("Debe completar todos los datos para poder suscribirse.")
-    } else {
-        alert("Gracias por suscribirte! :)")
-    }
-  }
-
 function sugerirLugarComida() {
     var comida = document.getElementById("inputComida").value.toLowerCase();
 
@@ -18,7 +7,7 @@ function sugerirLugarComida() {
         document.getElementById("resultado").textContent = "Podrías ir a: Obrador Florida, en Soler 5063" 
     } else if (comida === "pasta" || comida === "pastas"){
         document.getElementById("resultado").textContent = "Podrías ir a: Massey Familia, en Cerviño 3883"  
-    } else if (comida === "tostadas" || comida === "desayuno" || comida === "cafe"){
+    } else if (comida === "tostadas" || comida === "desayuno" || comida === "café"){
         document.getElementById("resultado").textContent = "Podrías ir a: Blanca Deco Café, en Sinclair 3163" 
     } else if (comida === "vegetariano" || comida === "veggie"){
         document.getElementById("resultado").textContent = "Te recomiendo: Artemisia, Costa Rica 5893"
@@ -28,5 +17,4 @@ function sugerirLugarComida() {
         document.getElementById("resultado").textContent = "Por el momento no tenemos sugerencias para esa comida, pero vamos a tener en cuenta tu pedido para seguir mejorando :)"
     }
 }
-
 

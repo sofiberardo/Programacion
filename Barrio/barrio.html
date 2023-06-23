@@ -13,7 +13,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Comer en BA</title>
-    <script src="script.js"></script>
+    <script src="/script.js"></script>
 </head>
 <body>
     <div class="menu">
@@ -46,9 +46,9 @@
     <div class="buscador">
         <div id="textoB"><b>¿Tenés algo en mente que querés comer?</b></div>
         <div id="textoC">Buscalo acá y te tiramos recomendaciones!</div>
-        <div id="Form">
-            <input type="text" id="inputComida" placeholder="Ingresa una comida">
-            <button onclick="sugerirLugarComida()">Buscar</button>
+        <div class="m-12 d-flex align-items-center">
+            <input type="text" class="m-2" id="inputComida" placeholder="Ingresa una comida">
+            <button class="btn btn-md btn-dark btn-block" onclick="sugerirLugarComida()">Buscar</button>
         </div>
         <div><p id="resultado" class="text-light"></p></div>
     </div>
