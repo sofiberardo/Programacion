@@ -18,3 +18,15 @@ function sugerirLugarComida() {
     }
 }
 
+function suscribirse() {
+  var nombre = document.getElementById("nombre").value;
+  var correo = document.getElementById("correo").value;
+
+  if (nombre === "" || correo === "") {
+    alert("Debe completar todos los datos para poder suscribirse.")
+  } else if (!correo.includes("@")) {
+    alert("Ingrese una dirección de correo válida.")
+  } else {
+    alert("Gracias por suscribirse! :)")
+  }
+}
