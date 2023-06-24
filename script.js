@@ -30,3 +30,13 @@ function suscribirse() {
     alert("Gracias por suscribirse! :)")
   }
 }
+
+function mostrar() {
+  const Restaurante = element.querySelector('.restaurante');
+}
+
+
+
+
+
+
