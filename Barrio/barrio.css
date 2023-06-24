@@ -68,27 +68,6 @@ body{
     font-size: 18px;
   }
 
-/*Buscador*/
-.buscador{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  flex-direction: column;
-  margin: 35px;
-  gap: 10px;
-}
-#textoB {
-  font-size: 30px;
-  font-family: 'DM Sans', sans-serif;
-  color: whitesmoke;
-}
-#textoC{
-  font-size: 20px;
-  font-family: 'DM Sans', sans-serif;
-  color: whitesmoke;
-}
-
 /*Responsive*/
 @media screen and (max-width: 790px){
   #textoMenu{

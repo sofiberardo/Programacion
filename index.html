@@ -22,19 +22,30 @@
         <div id="para1">Encontrá los mejores lugares para comer en Buenos aires :)</div>
     </div>
     <div class="border-top"></div>
-    <div class="fotos">
-        <div class="foto">
-            <img id="img" src="./imagenes/Comida.JPG" alt="Rutas gastronómicas">
-            <div class="arriba"><a id="formato" href="./Comida/comida.html"><p style="background-color: #6D3826; padding: 10px;">Rutas gastronómicas</p></a></div>
+    <div class="d-flex flex-wrap flex-column justify-content-center">
+        <div class="fotos">
+            <div class="foto">
+                <img id="img" src="./imagenes/Comida.JPG" alt="Rutas gastronómicas">
+                <div class="arriba"><a id="formato" href="./Comida/comida.html"><p style="background-color: #6D3826; padding: 10px;">Rutas gastronómicas</p></a></div>
+            </div>
+            <div class="foto">
+                <img id="img" src="./imagenes/Barrio.JPG" alt="Restaurantes">
+                <div class="arriba"><a id="formato" href="./Barrio/barrio.html"><p style="background-color: #788143; padding: 10px;">Restaurantes</p></a></div>
+            </div>
+            <div class="foto">
+                <img id="img" src="./imagenes/Hora.JPG" alt="Cafeterías">
+                <div class="arriba"><a id="formato" href="./Hora/hora.html"><p style="background-color: #B89663; padding: 10px;">Cafeterías</p></a></div>
+            </div>
         </div>
-        <div class="foto">
-            <img id="img" src="./imagenes/Barrio.JPG" alt="Restaurantes">
-            <div class="arriba"><a id="formato" href="./Barrio/barrio.html"><p style="background-color: #788143; padding: 10px;">Restaurantes</p></a></div>
+        <div class="buscador">
+            <div id="textoB"><b>¿Tenés algo en mente que querés comer?</b></div>
+            <div id="textoC">Buscalo acá y te tiramos recomendaciones!</div>
+            <div class="m-12 d-flex align-items-center">
+                <input type="text" class="m-2" id="inputComida" placeholder="Ingresa una comida">
+                <button type="button" class="btn btn-secondary" onclick="sugerirLugarComida()">Buscar</button>
+            </div>
+            <div><p id="resultado" class="text-light"></p></div>
         </div>
-        <div class="foto">
-            <img id="img" src="./imagenes/Hora.JPG" alt="Cafeterías">
-            <div class="arriba"><a id="formato" href="./Hora/hora.html"><p style="background-color: #B89663; padding: 10px;">Cafeterías </p></a></div>
-        <div>
     </div>
 </body>
 </html>
