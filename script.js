@@ -31,9 +31,7 @@ function suscribirse() {
   }
 }
 
-function mostrar() {
-  const Restaurante = element.querySelector('.restaurante');
-}
+
 
 
 
