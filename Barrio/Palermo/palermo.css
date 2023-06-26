@@ -1,50 +1,51 @@
 body{
-    background-color: #0d1216;
-    border: 0px;
-    padding: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-top: 0px;
+  background-color: #0d1216;
+  border: 0px;
+  padding: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
 }
 .menu{
-    display: flex;
-    align-items:center;
-    justify-content:flex-end;
-    position: sticky;
-    z-index: 1;
-    top: 0px;
-    height: 40px;
-    margin-bottom: 20px;
-    padding-right: 15px;
-    gap: 15px;
-    background-color:#FFFFFF;
-  }
-  #textoMenu{
-    font-family: 'DM Sans', sans-serif;
-    color: #0d1216;
-    text-decoration: none;
-    font-size: 17px;
-  }
-
-  .foto{
-    height: 335px;
-    width: 290px;
-  }
-  .Intro{
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    padding: 10px;
-    flex-wrap: wrap;
-    flex-direction: column;
-    margin-top: 25px;
-    margin-bottom: 10px;
+  display: flex;
+  align-items:center;
+  justify-content:flex-end;
+  position: sticky;
+  z-index: 1;
+  top: 0px;
+  height: 40px;
+  margin-bottom: 20px;
+  padding-right: 15px;
+  gap: 15px;
+  background-color:#FFFFFF;
 }
-  #titulo{
-    font-family:'DM Sans', sans-serif;
-    font-size: 40px;
-    color:whitesmoke;
+#textoMenu{
+  font-family: 'DM Sans', sans-serif;
+  color: #0d1216;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.foto{
+  height: 335px;
+  width: 290px;
+  margin-bottom: 10px;
+}
+.Intro{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  padding: 10px;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+#titulo{
+  font-family:'DM Sans', sans-serif;
+  font-size: 40px;
+  color:whitesmoke;
 }
   
 #texto{
@@ -71,4 +72,30 @@ body{
   display: block;
   text-align: center;
   font-family:'DM Sans', sans-serif;
+}
+
+/*Responsive*/
+@media screen and (max-width: 790px){
+#textoMenu{
+    font-family: 'DM Sans', sans-serif;
+    color: #0d1216;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  .foto{
+    height: 300px;
+    width: 250px;
+    margin-bottom: 10px;
+  }
+  #titulo{
+    font-family:'DM Sans', sans-serif;
+    font-size: 30px;
+    color:whitesmoke;
+  }
+  #texto{
+    font-family:'DM Sans', sans-serif;
+    font-size: 16px;
+    color:whitesmoke;
+    text-align: center;
+  }
 }

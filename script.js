@@ -23,11 +23,11 @@ function suscribirse() {
   var correo = document.getElementById("correo").value;
 
   if (nombre === "" || correo === "") {
-    alert("Debe completar todos los datos para poder suscribirse.")
+    alert("Debe completar todos los datos para poder suscribirte.")
   } else if (!correo.includes("@")) {
     alert("Ingrese una dirección de correo válida.")
   } else {
-    alert("Gracias por suscribirse! :)")
+    alert("Gracias por suscribirte! :)")
   }
 }
 

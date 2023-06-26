@@ -1,50 +1,50 @@
 body{
-    background-color: #0d1216;
-    border: 0px;
-    padding: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-top: 0px;
+  background-color: #0d1216;
+  border: 0px;
+  padding: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
 }
 .menu{
-    display: flex;
-    align-items:center;
-    justify-content:flex-end;
-    position: sticky;
-    z-index: 1;
-    top: 0px;
-    height: 40px;
-    margin-bottom: 20px;
-    padding-right: 15px;
-    gap: 15px;
-    background-color:#FFFFFF;
+  display: flex;
+  align-items:center;
+  justify-content:flex-end;
+  position: sticky;
+  z-index: 1;
+  top: 0px;
+  height: 40px;
+  margin-bottom: 20px;
+  padding-right: 15px;
+  gap: 15px;
+  background-color:#FFFFFF;
   }
   #textoMenu{
-    font-family: 'DM Sans', sans-serif;
-    color: #0d1216;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  .Intro{
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    padding: 9px;
-    flex-wrap: wrap;
-    margin-bottom: 5px;
+  font-family: 'DM Sans', sans-serif;
+  color: #0d1216;
+  text-decoration: none;
+  font-size: 17px;
+}
+.Intro{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  padding: 9px;
+  flex-wrap: wrap;
+  margin-bottom: 5px;
 }
 #titulo{
-    font-family:'DM Sans', sans-serif;
-    font-size: 40px;
-    color:whitesmoke;
+  font-family:'DM Sans', sans-serif;
+  font-size: 40px;
+  color:whitesmoke;
 }
 #texto{
-    font-family:'DM Sans', sans-serif;
-    font-size: 20px;
-    color:whitesmoke;
-    text-align:center;
-    padding-bottom: 3px;
+  font-family:'DM Sans', sans-serif;
+  font-size: 20px;
+  color:whitesmoke;
+  text-align:center;
+  padding-bottom: 3px;
 }
 .link{
   font-size: 30px;
@@ -53,12 +53,42 @@ body{
   background-color: #FFFFFF;
   color: #0d1216;
 }
+.tamaño{
+  height: 400px; 
+  width: 700px;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.tamañoFoto{
+  height: 200px;
+}
 /*Responsive*/
-@media screen and (max-width: 790px){
+@media screen and (max-width: 850px){
   #textoMenu{
-      font-family: 'DM Sans', sans-serif;
-      color: #0d1216;
-      text-decoration: none;
-      font-size: 14px;
+    font-family: 'DM Sans', sans-serif;
+    color: #0d1216;
+    text-decoration: none;
+    font-size: 14px;
     }
+  #titulo{
+    font-size: 30px;
+  }
+  #texto{
+    font-size: 15px;
+  }
+  .link{
+    font-size: 15px;
+    padding: 20px;
+  }
+  .tamaño{
+    height: 300px;
+    width: 550px;
+  }
+  .tamañoFoto{
+    height: 150px;
+  }
   }
