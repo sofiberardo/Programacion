@@ -25,7 +25,34 @@ body{
     text-decoration: none;
     font-size: 17px;
   }
-  
+  .Intro{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding: 9px;
+    flex-wrap: wrap;
+    margin-bottom: 5px;
+}
+#titulo{
+    font-family:'DM Sans', sans-serif;
+    font-size: 40px;
+    color:whitesmoke;
+}
+#texto{
+    font-family:'DM Sans', sans-serif;
+    font-size: 20px;
+    color:whitesmoke;
+    text-align:center;
+    padding-bottom: 3px;
+}
+.link{
+  font-size: 30px;
+  font-family: 'DM Sans', sans-serif;
+  padding: 25px;
+  background-color: #FFFFFF;
+  color: #0d1216;
+}
 /*Responsive*/
 @media screen and (max-width: 790px){
   #textoMenu{
