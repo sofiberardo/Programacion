@@ -33,11 +33,13 @@ body{
   padding: 9px;
   flex-wrap: wrap;
   margin-bottom: 5px;
+  flex-direction: column;
 }
 #titulo{
   font-family:'DM Sans', sans-serif;
   font-size: 40px;
   color:whitesmoke;
+  text-align: center;
 }
 #texto{
   font-family:'DM Sans', sans-serif;
